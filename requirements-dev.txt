@@ -1,0 +1,4 @@
+# Dev / test dependencies (not needed to run the service in production).
+#   pip install -r requirements-dev.txt
+#   pytest
+pytest>=8.0

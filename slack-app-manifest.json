@@ -1,0 +1,29 @@
+{
+  "display_information": {
+    "name": "Ada VIP Handoff (test)",
+    "description": "Bridges a Slack channel to an Ada AI Agent for VIP customer handoff to a live agent.",
+    "background_color": "#0a0b0c"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Ada VIP Handoff",
+      "always_online": true
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "chat:write",
+        "channels:history",
+        "channels:read",
+        "groups:history",
+        "groups:read"
+      ]
+    }
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}

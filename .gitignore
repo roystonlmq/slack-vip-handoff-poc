@@ -1,0 +1,29 @@
+# --- SECRETS: never commit ---
+.env
+.env.*
+!.env.example
+
+# --- runtime state (contains live conversation / end-user ids, not for VCS) ---
+webhook_state.db
+*.db
+*.sqlite
+*.sqlite3
+
+# --- logs ---
+*.log
+demo-logs/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+
+# --- editor / OS ---
+.DS_Store
+.idea/
+.vscode/
